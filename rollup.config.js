@@ -29,7 +29,7 @@ var definePlugins = [
 // const OutputName = `${pcg.name}-${pcg.version}.js`
 
 // 判断是否为watch
-if (~process.argv.indexOf('--watch')) {
+if (isDev) {
     definePlugins = definePlugins.concat([
         html({
             title: 'Test Page',
