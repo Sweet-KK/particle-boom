@@ -11,7 +11,7 @@
   },
   "files": [
     "src",
-    "demo"
+    "docs"
   ],
   "license": "MIT",
   "devDependencies": {

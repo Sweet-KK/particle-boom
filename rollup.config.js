@@ -10,7 +10,7 @@ const html = require('@rollup/plugin-html')
 const babel = require('rollup-plugin-babel')
 
 const isDev = process.env.NODE_ENV === 'development'
-const distDir = isDev ? './demo' : './lib'
+const distDir = isDev ? './docs' : './lib'
 
 var definePlugins = [
     eslint({
@@ -43,12 +43,12 @@ if (~process.argv.indexOf('--watch')) {
             ])
         }),
         livereload({
-            watch: ['src', 'demo/static']
+            watch: ['src', 'docs/static']
         }),
         serve({
             open: true,
             port: 8000,
-            openPage: `/demo/index.html`
+            openPage: `/docs/index.html`
         })
     ])
 }
