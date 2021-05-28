@@ -10,7 +10,7 @@
 - [Features](#features)
 - [Install](#install)
 - [Usage](#usage)
-- [Doc](#doc)
+- [Demo](#demo)
 - [License](#license)
 
 ## Introduction
@@ -78,9 +78,9 @@ export default {
 
 [⬆ Back to Top](#table-of-contents)
 
-## doc
+## Demo
 
-- [doc](https://Sweet-KK.github.io/particle-boom/)
+- [demo](https://Sweet-KK.github.io/particle-boom/)
 
 [⬆ Back to Top](#table-of-contents)
 
